@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/* Block LEVEL STYLES */
+
+.select-container {
+  display: inline-block;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  border-right: none;
+  border-radius: 3px;
+}
+
+::placeholder {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  /* color: black; */
+  font-weight: bold;
+}
+
+/* ELEMENT LEVEL STYLES */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-menu {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+}
+
+.input-field {
+  outline: none;
+}
+.text-icon {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.input-field {
+  font-size: 17px;
+}
+.select-button:hover , .deselect-icon :hover {
+  cursor: pointer;
+}
+
+.deselect-icon {
+  margin-left: 5px;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+.select-radio.form-check :hover {
+  cursor: pointer;
+}
+
+.custom-badge {
+
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5em;
+  border-radius: 3px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.form-check label {
+  margin-left: 0.5em;
+}
+
+.input-field {
+  border: none;
+}
+.select-back {
+  width: fit-content;
+}
+.select-back:hover {
+  cursor: pointer;
+}
+
+.select-radio:hover {
+  cursor: pointer;
+}
+
+.deselect-icon{
+  display: flex;
+  justify-self: content;
+  align-items: center;
+  
+}
+
+/* MODIFIER CLASS STYLES */
+
+.w-25 {
+  width: 25%;
+}
+.w-100 {
+  width: 100%;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.bg-black {
+  background-color: black;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+.disabled {
+  pointer-events: none;
+}
+.enabled {
+  pointer-events: all;
+}
+.border-none {
+  border: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.show-flex {
+  display: flex;
+}
+.input-focus {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.border-top-none {
+  border-top: 0px;
+}
+.input-blur {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
